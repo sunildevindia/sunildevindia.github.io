@@ -73,6 +73,13 @@ Replace `images/profile.jpg` with your own professional headshot.
 - Format: JPG or PNG
 - Keep file size under 100KB for optimal loading
 
+### Adding Your Personal Website
+Your personal website (https://mobihivestudio.github.io/) is linked in the contact section. 
+To update this link or add additional websites:
+1. Edit the social links section in `index.html`
+2. Replace the href attribute with your desired URL
+3. You can add additional website links by duplicating the anchor tag
+
 ### Colors
 Modify the color scheme in `css/styles.css` by updating the CSS variables:
 ```css
