@@ -1,14 +1,14 @@
 /* Base Styles */
 :root {
-    --primary-color: #2563eb;
-    --secondary-color: #1e40af;
-    --accent-color: #f97316;
-    --text-color: #334155;
-    --heading-color: #0f172a;
-    --bg-color: #f8fafc;
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --accent-color: #e74c3c;
+    --text-color: #333333;
+    --heading-color: #2c3e50;
+    --bg-color: #f8f9fa;
     --card-bg: #ffffff;
-    --border-color: #e2e8f0;
-    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --border-color: #e9ecef;
+    --shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
     --transition: all 0.3s ease;
 }
 
@@ -23,6 +23,7 @@ body {
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--bg-color);
+    font-size: 16px;
 }
 
 .container {
@@ -34,9 +35,9 @@ body {
 /* Header Styles */
 .header {
     background-color: var(--card-bg);
-    border-radius: 12px;
+    border-radius: 10px;
     box-shadow: var(--shadow);
-    padding: 2rem;
+    padding: 2.5rem;
     margin-bottom: 2rem;
     position: relative;
     overflow: hidden;
@@ -49,22 +50,23 @@ body {
     left: 0;
     width: 100%;
     height: 5px;
-    background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+    background: linear-gradient(90deg, var(--secondary-color), var(--accent-color));
 }
 
 .profile {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 2.5rem;
 }
 
 .profile-img {
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     overflow: hidden;
     border: 5px solid var(--border-color);
     flex-shrink: 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .profile-img img {
@@ -74,29 +76,37 @@ body {
 }
 
 .profile-info h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     color: var(--heading-color);
     margin-bottom: 0.5rem;
+    font-weight: 700;
 }
 
 .profile-info h2 {
-    font-size: 1.5rem;
-    color: var(--primary-color);
+    font-size: 1.4rem;
+    color: var(--secondary-color);
     font-weight: 500;
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
 }
 
 .contact-info {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
-    margin-bottom: 1rem;
+    gap: 0.6rem;
+    margin-bottom: 1.2rem;
 }
 
 .contact-info span {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.8rem;
+    font-size: 1.05rem;
+}
+
+.contact-info i {
+    color: var(--secondary-color);
+    width: 20px;
+    text-align: center;
 }
 
 .social-links {
@@ -108,18 +118,20 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: white;
     text-decoration: none;
     transition: var(--transition);
+    font-size: 1.2rem;
 }
 
 .social-links a:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--accent-color);
     transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* Main Content Styles */
@@ -130,23 +142,35 @@ body {
 
 .section {
     background-color: var(--card-bg);
-    border-radius: 12px;
+    border-radius: 10px;
     box-shadow: var(--shadow);
     padding: 2rem;
+    transition: var(--transition);
+}
+
+.section:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
 }
 
 .section h2 {
     font-size: 1.8rem;
     color: var(--heading-color);
     margin-bottom: 1.5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.8rem;
     border-bottom: 2px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.section h2 i {
+    color: var(--secondary-color);
 }
 
 /* Timeline Styles */
 .timeline {
     position: relative;
-    padding-left: 2rem;
+    padding-left: 2.5rem;
 }
 
 .timeline::before {
@@ -156,7 +180,7 @@ body {
     top: 0;
     height: 100%;
     width: 2px;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 
 .timeline-item {
@@ -170,27 +194,32 @@ body {
 
 .timeline-date {
     position: absolute;
-    left: -2rem;
+    left: -2.5rem;
     top: 0;
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: white;
-    padding: 0.25rem 0.5rem;
+    padding: 0.3rem 0.6rem;
     border-radius: 4px;
     font-size: 0.9rem;
     font-weight: 500;
 }
 
 .timeline-content h3 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: var(--heading-color);
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.3rem;
 }
 
 .timeline-content h4 {
     font-size: 1.1rem;
-    color: var(--primary-color);
-    margin-bottom: 0.5rem;
+    color: var(--secondary-color);
+    margin-bottom: 0.8rem;
     font-weight: 500;
+}
+
+.timeline-content p {
+    color: var(--text-color);
+    line-height: 1.7;
 }
 
 /* Skills Styles */
@@ -204,6 +233,8 @@ body {
     font-size: 1.3rem;
     color: var(--heading-color);
     margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .skill-category ul {
@@ -211,7 +242,7 @@ body {
 }
 
 .skill-category li {
-    padding: 0.5rem 0;
+    padding: 0.6rem 0;
     padding-left: 1.5rem;
     position: relative;
 }
@@ -220,11 +251,12 @@ body {
     content: '▹';
     position: absolute;
     left: 0;
-    color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 1.2rem;
 }
 
 /* Projects Styles */
-.projects-grid {
+.projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
@@ -239,31 +271,49 @@ body {
 
 .project-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border-color: var(--secondary-color);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .project-card h3 {
     font-size: 1.3rem;
     color: var(--heading-color);
+    margin-bottom: 0.8rem;
+}
+
+.project-card p {
+    color: var(--text-color);
+    line-height: 1.7;
+}
+
+/* Certifications & Awards */
+.certifications-container,
+.awards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.certification-item,
+.award-item {
+    padding: 1.2rem;
+    border-radius: 8px;
+    background-color: rgba(52, 152, 219, 0.05);
+    border-left: 4px solid var(--secondary-color);
+}
+
+.certification-item h3,
+.award-item h3 {
+    font-size: 1.2rem;
+    color: var(--heading-color);
     margin-bottom: 0.5rem;
 }
 
-.project-links {
-    display: flex;
-    gap: 1rem;
-    margin-top: 1rem;
-}
-
-.project-links a {
-    color: var(--primary-color);
-    text-decoration: none;
-    font-weight: 500;
-    transition: var(--transition);
-}
-
-.project-links a:hover {
-    color: var(--secondary-color);
-    text-decoration: underline;
+.certification-item p,
+.award-item p {
+    color: var(--text-color);
+    font-size: 0.95rem;
+    line-height: 1.6;
 }
 
 /* Footer Styles */
@@ -273,25 +323,31 @@ body {
     margin-top: 2rem;
     color: var(--text-color);
     border-top: 1px solid var(--border-color);
+    font-size: 1rem;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
     .container {
-        padding: 10px;
+        padding: 15px;
     }
     
     .profile {
         flex-direction: column;
         text-align: center;
+        gap: 1.5rem;
     }
     
     .contact-info {
         align-items: center;
     }
     
+    .contact-info span {
+        justify-content: center;
+    }
+    
     .timeline {
-        padding-left: 1.5rem;
+        padding-left: 1.8rem;
     }
     
     .timeline-date {
@@ -304,8 +360,31 @@ body {
         grid-template-columns: 1fr;
     }
     
-    .projects-grid {
+    .projects-container,
+    .certifications-container,
+    .awards-container {
         grid-template-columns: 1fr;
+    }
+    
+    .header {
+        padding: 1.8rem;
+    }
+    
+    .profile-img {
+        width: 130px;
+        height: 130px;
+    }
+    
+    .profile-info h1 {
+        font-size: 2.2rem;
+    }
+    
+    .section {
+        padding: 1.5rem;
+    }
+    
+    .section h2 {
+        font-size: 1.6rem;
     }
 }
 
@@ -315,15 +394,26 @@ body {
     }
     
     .profile-img {
-        width: 120px;
-        height: 120px;
+        width: 110px;
+        height: 110px;
     }
     
     .profile-info h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     
-    .section {
-        padding: 1.5rem;
+    .profile-info h2 {
+        font-size: 1.2rem;
+    }
+    
+    .contact-info span {
+        font-size: 0.95rem;
+        gap: 0.5rem;
+    }
+    
+    .social-links a {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
     }
 }

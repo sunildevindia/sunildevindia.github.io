@@ -1,0 +1,149 @@
+Sunil Kumar
+Varthur, Bengaluru, Karnataka, India. 560037
+Phone: +91-9164388543 / +91-9958147222
+E-Mail: sunil.krao@hotmail.com
+
+
+Objective
+
+An accomplished Technical Lead specializing in developing customer facing, B2B and enterprise applications using Native iOS/Android and Hybrid technologies. Have vast experience in delivering end-to-end projects, which include requirement analysis, design of application architecture (HLD and LLD), development for iOS, Android Native Applications. 
+
+
+Experience
+
+* More than 14+ years designing and developing software (including 7 years of team leading experience from medium to large teams from multiple geographical locations) combined with up-to-date knowledge of the latest technologies in mobile and connected devices.
+* Experienced (6+ years) in the use of agile approaches, including Scrum, Extreme Programming and Test-Driven Development. [Certified in CSM, CSD and CSPO]
+* Hands on experience in handling multiple projects simultaneously and coordinating with teams across different geographical locations.
+* Possess extensive experience in Customer Interactions. (Asian, European & US)
+* Experience in Mobile Enterprise Application Architecture, Design and Development of Mobile and Tablets (Android & iOS).
+* Experienced in object-oriented design and programming, architectural patterns and component infrastructure.
+* Domain Expert in Messaging, AV Streaming, DYI device Enrolment process
+* Experience in Mobile Application DevOps processes. 
+* Experience in Signing and publishing process with all Major App Stores.
+
+ Ivy Mobility Solution Ltd, Bangalore, India				[1st April 2018 – Till Date]
+At Resideo, a Honeywell spin-off, continues to work as Technology Specialist, with same responsibilities including new feature development, interface design & code review, to deliver a highly stable and secure user facing application both in iOS and Android platform.
+ Resideo Inc, Bangalore, India				                  [26th Oct 2018 – 29th Mar 2019]
+At Resideo, a Honeywell spin-off, continues to work as Technology Specialist, with same responsibilities including new feature development, interface design & code review, to deliver a highly stable and secure user facing application both in iOS and Android platform.
+ Honeywell Technologies Ltd, Bangalore, India	                             [15th Sept 2016 – 25th Oct 2018] 
+I was working as Technology Specialist, Honeywell’s IoT based Home security solution project which uses Azure-IoT Hub or AWS-IoT for different Security installations in US and Canada. My responsibilities include new feature development, interface design & code review, to deliver a highly stable and secure user facing application both in iOS and Android platform. 
+Samsung India Software Center [SRI-Delhi], India		     [25th Jun 2012 – 10th Sept 2016] 
+I was working as chief engineer for Android & iOS Platform B2B Applications. My was responsible for leading a team of 30+ developers working on multiple platforms (MacOS, iOS / Android) and managing project time lines and making sure technical road blocks are over come in timely manner. Till date I have handled more than 10 projects with minimal defect density and without any delay in project delivery time-lines.    
+ Affle Pte Ltd, Singapore					                        [1st Jun 2006 – 5th Jun 2012]
+In Affle Pte Ltd, Singapore, I was a Lead Developer and was responsible for development and deployment of Ad-Serving product across the asian markets on Samsung OEM platform devices. My responsibilities included working with various departments of the MNO (marketing, technology, VAS) and an internally assigned project team to design, code and roll out the products on the MNO network. Also was responsible for exploring new opportunities with upcoming mobile platforms for companies existing products and suggest new features to enhance them.
+ iFlect Technologies Inc. Mumbai, India				          [5th Dec 2003 – 5th May 2006]
+After my training as a Junior Software engineer I was promoted to Application developer and then as Lead developer.  Creating working prototypes,  Evaluating and deciding on project time-lines.  Suggesting new products and features that can be easily developed with existing code base. Worked with teams of Verizon US and Reliance Communication India to successfully release of our streaming products.
+Education
+2002-2003 Post graduation Diploma in VLSI, CDAC ACTS, Pune, India
+1998-2002 B.E in Electronics and Communication, Berhampur University, India	
+1995-1997 Standard X+2 (Science), C.H.S.E, India
+Skills
+Mobile Platforms	:  iOS, Android, Symbian, Blackberry, WP 
+IoT Platforms	:  AWS, Azure, Google Cloud
+Languages	:  Swift, Kotlin, C/C++, Java, Qt, C#, Dart, .Net, JS
+Cross Platform	:  Xamarin, Flutter
+Compilers and IDEs	:  XCode, Android Studio, Visual Studio
+CI/CD Tools	:  Jenkins, Fastlane, Atlassian, VS App Center
+Static Code Analysis	:  SonarQube
+Scripting Language	:  Python, Ruby, Shell Scripting, Perl
+Web Technologies	:  HTML5, jQuery, AngularJS, NodeJS 
+Version Control System	:  Perforce, GIT, SVN & CVS
+Issue Tracking	:  JIRA, Bugzilla, Mantis, VS Team Foundation
+
+
+
+Honors and awards received from Industry
+* Awarded as Best Performer for Releasing TC2.0 to AppStore by Honeywell  [Jan 2018]
+* Recognized as Application Expert for “Swallow RDK” by Samsung HQ. [Nov 2014]
+* Recognized as Platform Expert for “Falcon Platform” by Samsung HQ. [Jan 2014]
+* Awarded as Android Expert by Samsung, SWA HQ, India [July 2013] 
+* Recognized as Expert Developer for eBoard Android Project by Samsung HQ. [Mar 2013]
+* Awarded as Best Team Leader by Samsung SRI-Delhi [Nov 2012]
+* Forum Nokia Champion. [2007, 2008, 2009, 2010, 2011, 2012-2013]
+* Awarded as Qt Ambassador from Qt Open Governance [July 2011]
+* Winner of Qt Articles Contest, Forum Nokia Wiki [April 2010, Dec 2010]
+* Winner of Qt Mobility Code Competition, Forum Nokia Wiki [Feb 2010]
+* Award for Superior contribution to Forum Nokia DiBo [Dec 2009]
+* Touch UI Code Competition Winner. [Forum Nokia Code Camp 2008 Hungary]
+* Forum Nokia POM. [Jun 2007, Aug 2008]
+* BREW Developer Forum Most Regular Contributor [Feb 2007]
+
+Selected Projects With Honeywell Technologies Ltd: 
+
+Total Connect 2.0
+The Total Connect 2.0 (Native iOS / Android) is frontend for Honeywell’s Professional Monitoring System, which helps customers stay in the know about their home or small business wherever they go. Total Connect 2.0 supports more then 32 classes of sensors and cameras (manufactured by either Honeywell or Others) backed by Honeywell’s security panel via Z-Wave and WiFi medium. With the touch of a finger, TC 2.0 app lets users control their home or small business anytime, anywhere. Users can manage their security systems, receive event notifications, control thermostats, lighting, and locks, and more. Customers can even view live video, see, hear, and speak to visitors at the front door using Android or iOS smart devices, and use voice control (via Alexa skill) for security. 
+Rated 4.6 with 82K+ reviews in AppStore, 3.6 with 3K+reviews in PlayStore
+Lyric (Now Honeywell Homes)
+The Lyric (Native iOS / Android) is frontend for Honeywell’s DIY Home Automation System, which helps customers monitor and control Lyric Class of devices from any were. Lyric App Supports installation, monitor and control of Security Systems, Thermostats, Energy meters, Cameras all without leaving the application. Users can manage their security systems, receive event notifications, control thermostats, lighting, and locks, and more. Customers can even view live video, see, hear, and speak via Lyric Cameras using Android or iOS smart devices, and use voice control for security. 
+Rated 4.5 with 54K+ reviews in AppStore, 3.3 with 5K+reviews in PlayStore
+
+ Selected Projects With Samsung India: 
+Smart View 2.0
+Smart View is the multiscreen application, which helps content sharing between TV and mobile also control the Samsung Smart TV. User can enjoy everything in Samsung Smart TV right on your mobile. User can send Videos, photos and Music from mobile devices to the TV screen and can be enjoyed together with family and friends. User can also Change channels, pause, resume, volume control, view guides. I was looking after Protocol stabilization and UI/UX coding to confirm with specifications provided. Also looking after the Publishing application to Google and Apple application stores. 
+
+Multiroom – Wireless Audio
+The Samsung "Wireless Audio - Multiroom" system enables listeners to enjoy tether-free entertainment in any room in the house, from virtually any audio source, all controlled from a downloadable app and facilitated by plug and play installation. I was looking after Protocol design and confirming to speaker H/W team and UI/UX coding to confirm with specifications provided. Also looking after the Publishing application to Google and Apple application stores. 
+
+STB UI For RDK Based Smart Set-top Boxes  
+This Project targets to Design and develop setup-box that consist of a cloud-based HTML5 UI/UX and RDK (Reference Design Kit) around essential video applications such as EPG and VOD. Also blend user experience with popular Web applications such as Facebook, Twitter and YouTube on TV and operator specific applications. I am looking after creating HTML5 Applications for RDK Platform, Confirming to OPIF Standard Browser plug-ins, which interacts with RDK and HTML5 applications. Also designed Backbone.JS based framework for easy UI development according to operator’s requirement.
+
+Remote Mobile App For Smart Set-top Boxes
+Remote Mobile App For Smart Set-top Boxes (Android STBs) Connects your smart phone with the STB through Bluetooth or WiFi.  This app can simulate anything that a normal Set Top Box remote does. Better yet, it combine your remotes into a smart remote (activity) so that on your custom remote you'll have the volume buttons to your surround system (Samsung Audio Speakers), the channel buttons to control your set top box and the display buttons to control your Samsung TV. Advanced EPG on the app, which allows the user to touch and select the channel without scrolling through each channel individually. It has option to push Notifications from your smart phone like Facebook updates, missed call alerts, new messages, etc on your TV through the connected STB. Also share your smart phone’s videos with the STB for playback after transferring it first to the storage device. 
+
+
+FALCON Android4STB Platform
+“Falcon Platform” is a Samsung proprietary Set-top Box platform based on Samsung’s own System on Chips combined with Android (JB 4.2.2+). This platform has a fast intuitive user interface (UI). I was looking after Porting Android AOSP to Samsung Chip-set and Designing, Development of STB applications (like Launcher, EPG, LiveTV etc …) & API Development (using JNI) to provide application access to Set-top Box's middle-ware Layer. Platform is successfully presented to potential customers in IBC 2013 & CES 2014, was also deployed with multiple European operators.
+
+MagicIMS Android Agent
+This solution is used for interactive lessons between teacher and students. MagicIMS allows a device used by a teacher and devices used by students (Agent) to share display with each other, share the website and taking the exam and poll with each other. By installing the MagicInfo Mobile application on your tablet (Uses Native iOS / Android), you can join a class opened on the MagicIMS and will interact with teacher.	
+	
+Cloud Education Android Agent
+This solution enables your students and teachers to benefit from a broad range of education-related information on their mobile device. Communication links between institutions and students can be established, helping to create a more interactive learning environment that stretches well beyond the classroom. I was responsible for bug fixing & designing of interface to Cloud infrastructure also helped in improving interface with Samsung white boards. 						
+
+Mobile Device Management	
+This Solution secures, monitors, manages and supports mobile devices deployed across companies. By controlling and protecting the data and configuration settings for all Android devices in the corporate network, your company can reduce business security risks and lower its costs.  Was responsible for design and coding of remote “Mobile Application Management” (MAM) feature and bug fixes.
+
+Selected Projects With “Affle Pte Ltd.” Singapore:
+Sprooki – Tring @313
+Sprooki's White-label local marketing system is designed to help malls and retailers engage shoppers when they are most likely to respond (where they shop). Irrespective of whether shoppers have their mobile application open or closed, they will receive relevant, targeted alerts, based on who, where and when they are within proximity of your mall or retail outlets. Shoppers can redeem the offers directly via their internet-enabled devices, or can choose to complete purchases at the retail outlet.
+
+EzRewards
+EzRewards is a loyalty program that aims to reward concession and ez-link cardholders every time users use their registered concession. This application helps track of the Rewards earned and concessions on particular merchant for a particular item from user mobile device. My responsibilities include UI design and code as per client requirements, keeping track of testing and release cycles. 
+Faking News									
+This application brings the popular Indian news satire website www.fakingnews.com to mobile. My responsibility included creating this end-to-end application in iOS. Worked with XCode 4 (Designer, instruments and profiler) to create custom controls, network calls handling, parsing and storing of XML data for offline consumption and local and remote push integration. 
+Pinch iMessenger									
+This application Combines Messaging, user Contacts & Location information with social networking to help user batter socialize. My responsibilities include Coordinating team activity. Maintaining the schedule with Developers and testing teams (both internal and external). UI & protocol porting from Android to Qt using Symbian/Qt and QtSDK for MacOS/Windows/Linux. Design, document and code Pinch features (Pinch2SMS, ASync protocol and Integration of Ad networks) using Android OS. Also helping in porting same features to other platforms like Blackberry, iPhone, Windows Phone 7 and Symbian/Qt.
+SMSLive										
+It is a unified messaging experience, which adds social networking capabilities to native messaging application. For operators & advertisers it is most effective form of advertising to targeted audience. It taps into the eyeball-assured nature of the text messaging/SMS application and provides a value added service platform to build a scalable mobile media. I was responsible for Network Protocol, message communication Architecture Design and coding using Android and Symbian.C++.
+SMS2.0										
+SMS2.0 is the next generation messaging application. For operators & advertisers, it is a most effective form of advertising to targeted audience. It taps into the eyeball-assured nature of the text messaging/SMS application and provides a great platform to build a scalable mobile media. I was responsible for UI Design to match Native SMS Editor/Viewer, porting UI code of messaging editor and viewer to Touch UI. Client /Server architecture design and coding to Sync Ads and content to user device using Symbian C++ and BREW, Activity Logging for user usage pattern graphs and reports. Leading affle team to work in OEM premises to port application to OEMs closed platforms.
+Selected Projects With “iFlect Technologies Inc.” India:
+QwikLive 										
+It demonstrates use of QwikStream for Live streaming applications. The purpose of the project is to capture Audio and Video from a central Audio and Video content generator like TV-Tuner cards or Digital cameras, encode audio to (QCP/MP3/AMR/G723) and Video (QwikStream) and	stream	them to devices when connected at real time, over GPRS/CDMA/WLAN in multiple streams. I was responsible for Network Protocol Architecture Design and coding for both server and client on BREW and Symbian OS (Series 60) also .Net Framework.
+QwikVu (and QwiKam)									
+It Captures the Images from the cameras available with BREW/ Symbian / Smart phones encode them to QwikVu Images and Store them on the device. The user has the option to upload the images to a central image server using his authenticated user name and password with the server. User can view the images stored in his account on the server manage it and can download them if required. I was responsible for Network Protocol Architecture Design and coding for both server and client. Implementation and coding of Image Capture logic from phone, Network interface, porting the QwikVu image Encoder to BREW and Symbian S60.
+QwikStream									
+It is a wavelet based video compression algorithm. It gives a reduced file size of 30% and twice the decoding speed against its counterpart H264. The purpose of the project is to Trans-code video files from different formats to QwikStream and Multiplex as AVI with audio (MP3/OGG). The AVI files can play with the help of QwikStream Decoders in Different Platform like Desktop, PPC, Smart Phone, BREW, PalmOS and SymbianOS. I was responsible for design and coding of Content Provider Server. Porting the QwikStream Decoder to BREW and Symbian OS and .Net framework.
+
+Personal Profile.
+Date Of Birth		: 1st June 1980
+Sex			: Male
+Marital Status		: Married
+Nationality		: Indian
+Religion		: Hindu
+Languages Known	: English, Hindi, Oriya and Telugu.
+Visa Status		: Singapore PR
+
+
+
+
+
+
+2Resume of Mr. Sunil Kumar
+
+5Resume of Mr. Sunil Kumar
+
+
+
+
+

@@ -8,29 +8,49 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Simple animation for elements when they come into view
-const observerOptions = {
-    root: null,
-    rootMargin: '0px',
-    threshold: 0.1
-};
-
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.classList.add('animated');
-        }
+// Add animation to sections when they come into view
+document.addEventListener('DOMContentLoaded', function() {
+    const sections = document.querySelectorAll('.section');
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = 1;
+                entry.target.style.transform = 'translateY(0)';
+            }
+        });
+    }, {
+        threshold: 0.1
     });
-}, observerOptions);
+    
+    sections.forEach(section => {
+        section.style.opacity = 0;
+        section.style.transform = 'translateY(20px)';
+        section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        observer.observe(section);
+    });
+});
 
-document.querySelectorAll('.section').forEach(section => {
-    observer.observe(section);
+// Add hover effect to project cards
+document.addEventListener('DOMContentLoaded', function() {
+    const projectCards = document.querySelectorAll('.project-card, .certification-item, .award-item');
+    
+    projectCards.forEach(card => {
+        card.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-5px)';
+        });
+        
+        card.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0)';
+        });
+    });
 });
 
 // Theme toggle functionality (light/dark mode)
 const themeToggle = document.createElement('button');
 themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
 themeToggle.classList.add('theme-toggle');
+themeToggle.title = 'Toggle Dark Mode';
 document.body.appendChild(themeToggle);
 
 themeToggle.addEventListener('click', () => {
@@ -50,42 +70,104 @@ if (localStorage.getItem('darkMode') === 'true') {
     themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
 }
 
-// Form validation for contact form (if added later)
-function validateForm() {
-    const form = document.getElementById('contactForm');
-    if (form) {
-        form.addEventListener('submit', function(e) {
-            e.preventDefault();
-            // Add form validation logic here
-            console.log('Form submitted');
+// Add dark mode styles
+const darkModeStyles = `
+    .dark-mode {
+        --primary-color: #ecf0f1;
+        --secondary-color: #3498db;
+        --accent-color: #e74c3c;
+        --text-color: #ecf0f1;
+        --heading-color: #ffffff;
+        --bg-color: #1a1a2e;
+        --card-bg: #16213e;
+        --border-color: #0f3460;
+    }
+    
+    .dark-mode .timeline::before {
+        background-color: #3498db;
+    }
+    
+    .dark-mode .timeline-date {
+        background-color: #3498db;
+    }
+    
+    .dark-mode .project-card,
+    .dark-mode .certification-item,
+    .dark-mode .award-item {
+        background-color: rgba(52, 152, 219, 0.1);
+        border-color: #0f3460;
+    }
+    
+    .dark-mode .section h2 {
+        border-color: #0f3460;
+    }
+    
+    .dark-mode .skill-category h3 {
+        border-color: #0f3460;
+    }
+    
+    .dark-mode .contact-info i {
+        color: #3498db;
+    }
+`;
+
+const styleSheet = document.createElement("style");
+styleSheet.innerText = darkModeStyles;
+document.head.appendChild(styleSheet);
+
+// Add print styles for better resume printing
+const printStyles = `
+    @media print {
+        .header::before,
+        .theme-toggle,
+        .social-links,
+        .footer {
+            display: none;
+        }
+        
+        .container {
+            padding: 0;
+        }
+        
+        .header,
+        .section {
+            box-shadow: none;
+            border: 1px solid #ccc;
+        }
+        
+        body {
+            background-color: white;
+        }
+        
+        .dark-mode {
+            background-color: white;
+            color: black;
+        }
+        
+        .dark-mode .header,
+        .dark-mode .section {
+            background-color: white;
+            color: black;
+        }
+    }
+`;
+
+const printStyleSheet = document.createElement("style");
+printStyleSheet.innerText = printStyles;
+document.head.appendChild(printStyleSheet);
+
+// Add a subtle animation to the profile image
+document.addEventListener('DOMContentLoaded', function() {
+    const profileImg = document.querySelector('.profile-img');
+    if (profileImg) {
+        profileImg.style.transition = 'transform 0.3s ease';
+        
+        profileImg.addEventListener('mouseenter', function() {
+            this.style.transform = 'scale(1.05)';
+        });
+        
+        profileImg.addEventListener('mouseleave', function() {
+            this.style.transform = 'scale(1)';
         });
     }
-}
-
-// Initialize functions when DOM is loaded
-document.addEventListener('DOMContentLoaded', function() {
-    validateForm();
-});
-
-// Simple animation for elements when they come into view
-document.addEventListener('DOMContentLoaded', function() {
-    const elements = document.querySelectorAll('.section');
-    
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.style.opacity = 1;
-                entry.target.style.transform = 'translateY(0)';
-            }
-        });
-    }, {
-        threshold: 0.1
-    });
-    
-    elements.forEach(element => {
-        element.style.opacity = 0;
-        element.style.transform = 'translateY(20px)';
-        element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
-        observer.observe(element);
-    });
 });
