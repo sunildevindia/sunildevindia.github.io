@@ -8,10 +8,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Add animation to sections when they come into view
+// Add animation to sections and profile image on DOMContentLoaded
 document.addEventListener('DOMContentLoaded', function() {
+    // Animate sections
     const sections = document.querySelectorAll('.section');
-    
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -22,28 +22,27 @@ document.addEventListener('DOMContentLoaded', function() {
     }, {
         threshold: 0.1
     });
-    
+
     sections.forEach(section => {
         section.style.opacity = 0;
         section.style.transform = 'translateY(20px)';
         section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
         observer.observe(section);
     });
-});
 
-// Add hover effect to project cards
-document.addEventListener('DOMContentLoaded', function() {
-    const projectCards = document.querySelectorAll('.project-card, .certification-item, .award-item');
-    
-    projectCards.forEach(card => {
-        card.addEventListener('mouseenter', function() {
-            this.style.transform = 'translateY(-5px)';
+    // Animate profile image
+    const profileImg = document.querySelector('.profile-img');
+    if (profileImg) {
+        profileImg.style.transition = 'transform 0.3s ease';
+        
+        profileImg.addEventListener('mouseenter', function() {
+            this.style.transform = 'scale(1.05)';
         });
         
-        card.addEventListener('mouseleave', function() {
-            this.style.transform = 'translateY(0)';
+        profileImg.addEventListener('mouseleave', function() {
+            this.style.transform = 'scale(1)';
         });
-    });
+    }
 });
 
 // Theme toggle functionality (light/dark mode)
@@ -155,19 +154,3 @@ const printStyles = `
 const printStyleSheet = document.createElement("style");
 printStyleSheet.innerText = printStyles;
 document.head.appendChild(printStyleSheet);
-
-// Add a subtle animation to the profile image
-document.addEventListener('DOMContentLoaded', function() {
-    const profileImg = document.querySelector('.profile-img');
-    if (profileImg) {
-        profileImg.style.transition = 'transform 0.3s ease';
-        
-        profileImg.addEventListener('mouseenter', function() {
-            this.style.transform = 'scale(1.05)';
-        });
-        
-        profileImg.addEventListener('mouseleave', function() {
-            this.style.transform = 'scale(1)';
-        });
-    }
-});

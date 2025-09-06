@@ -193,9 +193,8 @@ body {
 }
 
 .timeline-date {
-    position: absolute;
-    left: -2.5rem;
-    top: 0;
+    flex-basis: 120px;
+    flex-shrink: 0;
     background-color: var(--secondary-color);
     color: white;
     padding: 0.3rem 0.6rem;
@@ -203,7 +202,6 @@ body {
     font-size: 0.9rem;
     font-weight: 500;
     white-space: nowrap;
-    min-width: 120px;
     text-align: center;
 }
 
@@ -272,7 +270,9 @@ body {
     transition: var(--transition);
 }
 
-.project-card:hover {
+.project-card:hover,
+.certification-item:hover,
+.award-item:hover {
     transform: translateY(-5px);
     border-color: var(--secondary-color);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
@@ -358,6 +358,10 @@ body {
         display: inline-block;
         margin-bottom: 0.5rem;
     }
+
+    .timeline-content {
+        margin-left: 0;
+    }
     
     .skills-container {
         grid-template-columns: 1fr;
@@ -417,6 +421,9 @@ body {
     .social-links a {
         width: 40px;
         height: 40px;
+        font-size: 1rem;
+    }
+}eight: 40px;
         font-size: 1rem;
     }
 }
