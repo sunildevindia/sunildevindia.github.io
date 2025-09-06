@@ -203,6 +203,8 @@ body {
     font-size: 0.9rem;
     font-weight: 500;
     white-space: nowrap;
+    min-width: 120px;
+    text-align: center;
 }
 
 .timeline-content h3 {
